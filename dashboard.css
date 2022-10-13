@@ -1,0 +1,135 @@
+.navbar{
+    padding: 1% 10%;
+    background-color: rgb(13, 13, 50);
+    /* background-color: rgb(15, 15, 54); */
+   
+
+}
+.brand-container a{
+    font-size: 35px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+   
+   font-family: 'Courier New', Courier, monospace;
+}
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background : #1ce1f3;
+    columns: white;
+    transform: scale(1.1);
+
+}
+/* features start */
+
+#features{
+    padding: 5% 10%;
+    
+}
+.features-col{
+    border: 1px solid rgb(12, 12, 45);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+    transition: 0.4s;
+    color: white;
+    background: #04073d;
+    width: 70%;
+    
+
+    
+}
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.card-btn{
+    transform: scale(1.1);
+    background-color: aqua;
+    box-shadow: 2px 6px 5px rgb(55, 163, 213);
+}
+.card-btn:hover{
+    background: palegoldenrod;
+}
+.logout-btn{
+    transform: scale(1.1);
+    background-color: #04073d;
+    color: white;
+    box-shadow: 2px 6px 5px rgb(16, 19, 129);
+    
+}
+.logout-btn:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px rgb(0, 0, 0);
+    
+}
+
+/* Private mode */
+.form-label{
+    
+    color: white;
+    margin-right:70 px;
+    width: 100%;
+}
+.file{
+    background: #04073d;
+    color: white;
+}
+.table{
+    justify-content: center;
+
+}
+.page-title{
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* modal */
+.modal-header {
+    
+    
+    background-color: rgb(6, 5, 52);;
+     justify-content: center;
+ }
+ .modal-header h5{
+     color: aliceblue;
+     font-weight: bolder;
+     font-size: 40px;
+ }
+ .modal-title{
+    color: aliceblue;
+     font-weight: bold;
+     font-size: 10px;
+ }
+ /* .banner-container h1{
+     font-size: 3.5rem;
+     color: white;
+     background-color: rgba(8, 4, 43, 0.5);
+ } */
+ .signin-btn{
+     text-align: center;
+     font-size: 1.5rem;
+     color: rgba(12, 8, 58, 0.5);
+ }
+ 
+ 
+ .modal-footer{
+     justify-content: center;
+ }
+ .modal-btn{
+     color: white;
+     background-color: rgb(21, 10, 36);
+     
+     
+ }
+ 
+ .modal-btn2{
+     color: white;
+     background-color: rgb(217, 14, 115);
+ }
+ 
